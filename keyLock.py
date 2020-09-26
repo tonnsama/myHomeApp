@@ -4,8 +4,8 @@ import os
 from gpiozero import AngularServo, RGBLED
 from colorzero import Color
 
-servo = AngularServo(17, min_angle=-45, max_angle=45)
-red, green, blue = 3, 4, 2
+servo = AngularServo(4, min_angle=-45, max_angle=45)
+red, green, blue = 3, 17, 2
 led = RGBLED(red, green, blue, False)
 
 move_time = 1.5
